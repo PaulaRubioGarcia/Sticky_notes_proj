@@ -1,4 +1,4 @@
-###Prerequisites
+## Prerequisites
 Ensure you have the following installed:
 
 Python 3.x
@@ -8,32 +8,32 @@ Step-by-Step Guide
 
 
 
-###Setup Instructions
+### Setup Instructions
 Follow these steps to set up the project on your local machine:
 
-#Create and activate a virtual environment:
+# Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 
-#Install dependencies:
+# Install dependencies:
 pip install -r requirements.txt
 
 
-#Apply migrations:
+# Apply migrations:
 python manage.py migrate
 
 Create a superuser:
 
 
-#Run the development server:
+# Run the development server:
 python manage.py runserver
 
 Open your web browser and navigate to http://127.0.0.1:8000/ to see the application in action.
 
 
-##1. Set Up the Project
-##Install Django:
+## 1. Set Up the Project
+## Install Django:
 pip install django
 
 
@@ -42,11 +42,11 @@ django-admin startproject sticky_notes_proj
 cd sticky_notes_project
 
 
-#Create a Django App:
+# Create a Django App:
 python manage.py startapp notes_app
 
 
-##2.Define Models
+## 2.Define Models
 In notes/models.py, define the Note and Post models:
 (Look models.py file in notes_app folder)
 
