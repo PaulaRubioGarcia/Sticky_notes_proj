@@ -1,0 +1,11 @@
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ page_title }}</h1>
+    <p>Are you sure you want to delete this note?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="{% url 'note_detail' note.pk %}" class="btn btn-secondary">Cancel</a>
+    </form>
+{% endblock %}
