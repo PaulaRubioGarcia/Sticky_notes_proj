@@ -1,1 +1,87 @@
+/* Set the background color of the entire page */
+body {
+    background-color: #87CEEB; /* Sky blue color */
+    padding-top: 20px;
+}
 
+/* Style the navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Center the container */
+.container {
+    max-width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the main title */
+h1 {
+    text-align: center;
+    font-size: 36px; /* Big size */
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 20px;
+}
+
+/* Remove list styling for notes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style individual list items */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Style each note item */
+.note-item {
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links within note items */
+.note-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.note-item a:hover {
+    text-decoration: underline;
+}
+
+/* Style for note item paragraphs */
+.note-item p {
+    margin: 0;
+}
+
+/* Style for buttons */
+.btn {
+    margin-right: 5px;
+}
+
+/* Style the create new note button */
+.create-new-note {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Yellow background */
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for create new note button */
+.create-new-note:hover {
+    background-color: #FFC107; /* Slightly darker yellow */
+}
