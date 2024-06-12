@@ -81,7 +81,7 @@ Add URL configurations for notes and posts in notes/urls.py:
 (Looks at urls.py in notes_app folder to see the structure)
 
 
-*** Update the main URL configuration in sticky_notes_project/urls.py: ***
+***Update the main URL configuration in sticky_notes_project/urls.py:***
 (Look inside sticky_notes_proj folder in urls.py file to see the strcture)
 
 
